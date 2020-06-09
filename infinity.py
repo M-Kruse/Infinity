@@ -60,7 +60,7 @@ class Infinity(object):
         os.system("nmcli radio wifi {}".format(state))
 
     def randomize_mac(self):
-        os.system("sudo macchanger -r wlp2s0")
+        os.system("sudo macchanger -r {0}".format(self.wlan_inf))
 
     def connect_wifi(self):
         os.system("nmcli device wifi connect xfinitywifi")
