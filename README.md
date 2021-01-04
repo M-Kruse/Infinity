@@ -1,3 +1,5 @@
+# This has been deprecated. Xfinity no longer provides free trial wifi.
+
 # Infinity
 
 This is a tool to help with exfilitration in red/blue team exercises by automating the steps required to access a free hour of wifi usage from certain wifi hotspots.
